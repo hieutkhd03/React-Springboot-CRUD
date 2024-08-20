@@ -8,7 +8,7 @@ public class OrderDetail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "order_det_id")  // Ánh xạ đúng với cột `order_det_id`
+    @Column(name = "order_detail_id")  // Ánh xạ đúng với cột `order_det_id`
     private Long orderDetailId;
 
     @Column(name = "order_id")  // Ánh xạ đúng với cột `order_id`

@@ -31,6 +31,9 @@ public class Order {
     @Column(name = "note")
     private String note;
     
+    @Column(name = "status")
+    private int status;
+    
     // Getters and Setters
 
     public Long getOrderId() {
@@ -88,4 +91,12 @@ public class Order {
     public void setNote(String note) {
         this.note = note;
     }
+
+	public int getStatus() {
+		return status;
+	}
+
+	public void setStatus(int status) {
+		this.status = status;
+	}
 }
